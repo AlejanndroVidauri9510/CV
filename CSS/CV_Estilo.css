@@ -105,6 +105,25 @@ header p{
 .esperience p {
     margin-bottom: 10px;
 }
+.certificaciones ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.certificaciones li {
+    margin-bottom: 8px;
+}
+
+.certificaciones a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.certificaciones a:hover {
+    text-decoration: underline;
+    color: #e8f5e9;
+}
 
 /* --- RESPONSIVE DESIGN --- */
 @media (max-width: 900px) {
